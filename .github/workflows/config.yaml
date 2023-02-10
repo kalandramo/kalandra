@@ -14,8 +14,8 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-#          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
-          hugo-version: "0.106.0" #
+          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
+#          hugo-version: "0.106.0" #
           extended: true # 设置是否需要 extended 版本
 
       - name: Build
