@@ -5,17 +5,19 @@ on:
       - main
 jobs:
   build-deploy:
-#    runs-on: ubuntu-20.04
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+    #runs-on: macos-latest
     steps:
       - name: Check out source
         uses: actions/checkout@v3
+        with:
+            submodules: true
+            fetch-depth: 0
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
-          extended: true
 
       - name: Build
         run: hugo
@@ -28,3 +30,4 @@ jobs:
           publish_dir: ./public
           publish_branch: master
           cname: www.moweilong.com
+          commit_message: ${{ github.event.head_commit.message }}
