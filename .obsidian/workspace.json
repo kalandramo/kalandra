@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3843f07606d39e0c",
+        "id": "efeba6568a44adf7",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f4f4a4f3c2a861",
+            "id": "ea6d207bda67efcb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,13 +138,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c610e12ac6797946",
+  "active": "ea6d207bda67efcb",
   "lastOpenFiles": [
+    "public/robots.txt",
+    "public/categories/mysql/index.xml",
+    "public/categories/程序员必修课/index.xml",
+    "public/first_post/index.md",
+    "public/mysql主从结构从库重建/index.md",
+    "public/index.json",
+    "public/tags/程序员基础知识/page/1/index.html",
+    "public/tags/程序员基础知识/page/1",
+    "public/tags/程序员基础知识/page",
+    "public/tags/程序员基础知识/index.xml",
+    "public/tags/程序员基础知识/index.html",
+    "public/tags/程序员基础知识",
+    "public/tags/mysql主从/page/1/index.html",
+    "public/进制理解/index.md",
+    "public/lib/simple-icons/icons/line.min.svg",
+    "public/svg/loading.min.svg",
+    "content/posts/进制理解.md",
     "content/posts/MySQL主从结构从库重建.md",
     "archetypes/default.md",
-    "obs_sctipts/NewBlog.js",
     "obs_sctipts/NewBlog.js.md",
-    "content/posts/first_post.md",
-    "obs_sctipts"
+    "content/posts/first_post.md"
   ]
 }

@@ -1,10 +1,5 @@
----
-title: "MySQL主从结构从库重建"
-date: 2023-03-06T18:29:13+08:00
-draft: false
-tags: ["MySQL主从"]
-categories: ["MySQL"]
----
+# MySQL主从结构从库重建
+
 
 ## 备份主库
 
