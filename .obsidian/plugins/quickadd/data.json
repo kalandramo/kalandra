@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "id": "82560f41-d0bf-4ce8-9521-8071cde5e9d0",
+      "name": "新建博客",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e33c6b69-3a5e-42a5-a77a-d733dcb78925"
+    }
+  ],
+  "macros": [
+    {
+      "name": "新建博客",
+      "id": "e33c6b69-3a5e-42a5-a77a-d733dcb78925",
+      "commands": [
+        {
+          "name": "NewBlog",
+          "type": "UserScript",
+          "id": "14b7b6cf-6440-4b35-bd5c-c00c79769b95",
+          "path": "obs_sctipts/NewBlog.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+  }
+}
